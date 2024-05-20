@@ -1,4 +1,9 @@
-import { View, PerspectiveCamera, OrbitControls } from "@react-three/drei";
+import {
+  Html,
+  OrbitControls,
+  PerspectiveCamera,
+  View,
+} from "@react-three/drei";
 
 import * as THREE from "three";
 import Lights from "./Lights";
@@ -12,8 +17,8 @@ const ModelView = ({
   gsapType,
   controlRef,
   setRotationState,
-  item,
   size,
+  item,
 }) => {
   return (
     <View
