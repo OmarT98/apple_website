@@ -4,7 +4,7 @@
 
 ## Technologies Used
 
-- Next JS
+- React
 - Three JS
 - GSAP
 - Tailwind CSS
